@@ -9,4 +9,7 @@ base_url = "http://api.openweathermap.org/data/2.5/weather?appid=" + API_Key + "
 
 weather_data = requests.get(base_url).json()
 
+# pprint is prettier print - it organizes data in a structured form
 pprint(weather_data)
+
+
